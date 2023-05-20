@@ -15,8 +15,10 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Question{
+
     @Id
     private ObjectId id;
+    
     private String ques;
     private List<String> options;
     private String anwser;
