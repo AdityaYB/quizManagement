@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 
 import java.util.List;
 
-@Document
+@Document(collection = "questions")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
